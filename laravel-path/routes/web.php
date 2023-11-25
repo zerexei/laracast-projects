@@ -13,8 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// guest
 Route::get('/', function () {
     return view('welcome');
 });
 
+// auth
+// Route::middleware(['auth'])->group(function () {
 Route::view('/dashboard', 'dashboard');
+// });
