@@ -1,7 +1,8 @@
 <script setup lang="ts">
-const message = "Hello, world!";
+import { sum } from "@/Utils/index.ts";
+const message: string = "Hello, world!";
 </script>
 
 <template>
-    <h1>{{ message }}</h1>
+    <h1>{{ message }} - {{ sum(1, 2) }}</h1>
 </template>

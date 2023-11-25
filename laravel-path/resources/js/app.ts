@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import "./bootstrap";
+import "./bootstrap.ts";
 import HelloWorld from "@/Components/HelloWorld.vue";
 
 const app = createApp({});
