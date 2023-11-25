@@ -1,3 +1,3 @@
 <x-app-layout>
-    <h1>Hello World</h1>
+    <hello-world></hello-world>
 </x-app-layout>
