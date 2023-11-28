@@ -26,6 +26,8 @@ Route::get('/', function () {
     }
 });
 
+require_once 'inertia.php';
+
 // auth
 // Route::middleware(['auth'])->group(function () {
 Route::view('/dashboard', 'dashboard');

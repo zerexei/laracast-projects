@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{config('app.name', "Laravel Path")}}</title>
 
-    @vite(['resources/css/app.css', 'resources/js/app.ts'])
+
+    {{-- @vite(['resources/css/app.css', 'resources/js/app.ts']) --}}
+    @inertiaHead
 </head>
 
 <body class="antialiased">
@@ -22,6 +24,7 @@
             <div id="App" class="py-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <!-- Your content -->
                 {{ $slot }}
+                @inertia
             </div>
         </main>
     </div>

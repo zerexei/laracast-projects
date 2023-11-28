@@ -16,5 +16,13 @@ body {
 }
 
 .bug {
- border: 1px solid red;
+    border: 1px solid red;
+}
+
+
+.heading-1 {
+    @apply text-2xl font-bold;
+}
+.button {
+    @apply px-2.5 py-1.5 text-white bg-indigo-600 rounded hover:opacity-90;
 }
